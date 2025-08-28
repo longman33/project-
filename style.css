@@ -17,6 +17,7 @@ header {
     color:#007bff;
     
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -29,9 +30,19 @@ nav li a {
     margin-left: 20px;
     font-size: 20px;
 }
-nav li a:hover{
+nav li a:link{
     color: #007bff;
 }
+nav li a:visited{
+    color: #007bff;
+}
+nav li a:hover{
+    color: #008080;
+}
+nav li a:active{
+    color: #004085;
+}
+
 .try-now {
     background-color: #007bff;
     color: white;
@@ -95,6 +106,8 @@ nav li a:hover{
     flex-direction: column;
     color: #007bff;
     border: none;
+    font-weight: bolder;
+    
     
 }
 .search-input label {
@@ -107,6 +120,7 @@ nav li a:hover{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    
     
 }
 .search-button {
@@ -196,7 +210,7 @@ nav li a:hover{
  border-radius: 5px;
 }
 .browse-properties {
- background-color: #28a745;
+ background-color:  #007bff;
  color: white;
  border: none;
  padding: 15px 30px;
@@ -623,7 +637,7 @@ form button:hover {
         }
 @media (max-width:576px) {
     header{
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         
 
