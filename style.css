@@ -192,6 +192,51 @@ nav li a:active{
     font-size: 20px;
     color: #007bff;
 }
+
+/*our service*/
+.services-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.service-subtitle {
+    color: #888;
+    margin-bottom: 40px;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+   
+}
+
+.service-card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+.service-card h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.service-card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #555;
+}
+.blue-card {
+    background-color:  #007bff;
+    color: #fff;
+}
+.blue-cardh3, .blue-card p {
+    color: #fff;
+}
+.fa{
+    font-size: 50px;
+}
 .easy-method {
     display: flex;
     padding: 50px 20px;
